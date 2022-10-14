@@ -3,7 +3,7 @@ import Pic from "../components/Pic.svelte"
 import Card from "../components/Card.svelte"
 import Section from "../components/Section.svelte"
 
-const cardTitle1 = "Hello! My name is Christian"
+const cardTitle1 = "Hello! \u{1F44B} My name is Christian"
 const cardText1 = "Its a pleasure to meet you, I’m happy we could connect! If you’d like to add my contact information to your device you can tap the button below or you can keep scrolling to learn more about me and Igility Solutions..."
 const cardCta1 = "Add to Contacts"
 
