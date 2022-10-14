@@ -39,9 +39,9 @@ const cardCta2 = "IgilitySolutions.com"
 <div class="relative top-0 w-full h-full py-8 max-w-md m-auto flex flex-col items-center gap-y-5">
 
     <Pic />
-    <Card title={cardTitle1} text={cardText1} ctaText={cardCta1} ctaLink={"#"} bgColor={"bg-neutral-900/50"} />
-    <Section title={sectionTitle1} text={sectionText1} bgColor={"bg-neutral-50/10"} />
-    <Section title={sectionTitle2} text={sectionText2} bgColor={"bg-neutral-900/50"} />
+    <Card title={cardTitle1} text={cardText1} ctaText={cardCta1} ctaLink={"#"} bgColor={"from-neutral-300/50 to-neutral-900/50 bg-gradient-to-br"} />
+    <Section title={sectionTitle1} text={sectionText1} bgColor={"from-neutral-400/50 to-neutral-900/50 bg-gradient-to-br"} />
+    <Section title={sectionTitle2} text={sectionText2} bgColor={"from-neutral-600/50 to-neutral-900/50 bg-gradient-to-br"} />
     <Card title={cardTitle2} text={cardText2} ctaText={cardCta2} ctaLink={"#"} bgColor={"bg-neutral-50/10"} classes={"text-center"} />
 
 </div>
