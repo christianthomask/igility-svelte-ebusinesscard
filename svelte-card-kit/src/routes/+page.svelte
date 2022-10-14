@@ -19,7 +19,7 @@ const cardCta2 = "IgilitySolutions.com"
 </script>
 
 
-<div class="w-full h-full fixed from-neutral-800 to-neutral-900 bg-gradient-to-br"></div>
+<div class="w-full h-full fixed from-neutral-700 to-neutral-900 bg-gradient-to-br"></div>
 
 <div class="fixed w-full h-screen">
     <ul class="pluses absolute top-0 left-0 w-full h-full overflow-hidden">
@@ -39,10 +39,10 @@ const cardCta2 = "IgilitySolutions.com"
 <div class="relative top-0 w-full h-full max-w-md m-auto flex flex-col items-center gap-y-5">
 
     <Pic />
-    <Card title={cardTitle1} text={cardText1} ctaText={cardCta1} ctaLink={"#"} bgColor={"bg-neutral-900"} />
-    <Section title={sectionTitle1} text={sectionText1} bgColor={"bg-neutral-500"} />
-    <Section title={sectionTitle2} text={sectionText2} bgColor={"bg-neutral-900"} />
-    <Card title={cardTitle2} text={cardText2} ctaText={cardCta2} ctaLink={"#"} bgColor={"bg-transparent"} classes={"text-center"} />
+    <Card title={cardTitle1} text={cardText1} ctaText={cardCta1} ctaLink={"#"} bgColor={"bg-neutral-900/50"} />
+    <Section title={sectionTitle1} text={sectionText1} bgColor={"bg-neutral-50/10"} />
+    <Section title={sectionTitle2} text={sectionText2} bgColor={"bg-neutral-900/50"} />
+    <Card title={cardTitle2} text={cardText2} ctaText={cardCta2} ctaLink={"#"} bgColor={"bg-neutral-50/10"} classes={"text-center"} />
 
 </div>
 
@@ -53,14 +53,15 @@ const cardCta2 = "IgilitySolutions.com"
         position: absolute;
         display: block;
         list-style: none;
-        width: 144px;
-        height: 144px;
+        width: 100px;
+        height: 100px;
         animation: animate 25s linear infinite;
-        bottom: -150px;
+        top: -150px;
+        opacity: 0.9
     }
 
     .pluses li .vrt {
-        border-radius: 12px;
+        border-radius: 8px;
         width: 35%;
         height: 100%;
         background-color: #10B981;
@@ -68,7 +69,7 @@ const cardCta2 = "IgilitySolutions.com"
     }
 
     .pluses li .hzt {
-        border-radius: 12px;
+        border-radius: 8px;
         width: 100%;
         height: 35%;
         background-color: #34D399;
@@ -141,7 +142,7 @@ const cardCta2 = "IgilitySolutions.com"
         }
 
         100%{
-            transform: translateY(-1000px) rotate(720deg);
+            transform: translateY(1000px) rotate(720deg);
             border-radius: 50%;
         }
 
