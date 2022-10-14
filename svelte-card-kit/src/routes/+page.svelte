@@ -39,8 +39,8 @@ const cardCta2 = "IgilitySolutions.com"
 <div class="relative top-0 w-full h-full py-8 max-w-md m-auto flex flex-col items-center gap-y-5">
 
     <Pic />
-    <Card title={cardTitle1} text={cardText1} ctaText={cardCta1} ctaLink={"#"} bgColor={"from-neutral-300/50 to-neutral-900/50 bg-gradient-to-br"} />
-    <Section title={sectionTitle1} text={sectionText1} bgColor={"from-neutral-400/50 to-neutral-900/50 bg-gradient-to-br"} />
+    <Card title={cardTitle1} text={cardText1} ctaText={cardCta1} ctaLink={"#"} bgColor={"from-neutral-400/50 to-neutral-900/50 bg-gradient-to-br"} />
+    <Section title={sectionTitle1} text={sectionText1} bgColor={"from-neutral-500/50 to-neutral-900/50 bg-gradient-to-br"} />
     <Section title={sectionTitle2} text={sectionText2} bgColor={"from-neutral-600/50 to-neutral-900/50 bg-gradient-to-br"} />
     <Card title={cardTitle2} text={cardText2} ctaText={cardCta2} ctaLink={"#"} bgColor={"bg-neutral-50/10"} classes={"text-center"} />
 
@@ -57,22 +57,22 @@ const cardCta2 = "IgilitySolutions.com"
         height: 100px;
         animation: animate 25s linear infinite;
         top: -150px;
-        opacity: 0.9
+        opacity: 0.95;
     }
 
     .pluses li .vrt {
-        border-radius: 8px;
+        border-radius: 4px;
         width: 35%;
         height: 100%;
-        background-color: #10B981;
+        background-color: #3b82f6;
         margin: auto;
     }
 
     .pluses li .hzt {
-        border-radius: 8px;
+        border-radius: 4px;
         width: 100%;
         height: 35%;
-        background-color: #34D399;
+        background-color: #4ade80;
         position: relative;
         bottom: 68%;
     }
