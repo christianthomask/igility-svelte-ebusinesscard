@@ -36,7 +36,7 @@ const cardCta2 = "IgilitySolutions.com"
     </ul>
 </div>
 
-<div class="relative top-0 w-full h-full max-w-md m-auto flex flex-col items-center gap-y-5">
+<div class="relative top-0 w-full h-full py-8 max-w-md m-auto flex flex-col items-center gap-y-5">
 
     <Pic />
     <Card title={cardTitle1} text={cardText1} ctaText={cardCta1} ctaLink={"#"} bgColor={"bg-neutral-900/50"} />
